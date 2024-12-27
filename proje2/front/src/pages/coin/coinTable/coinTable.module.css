@@ -1,0 +1,36 @@
+.tableContainer {
+    background-color: #e5e5e5; /* Серый фон для контейнера */
+    padding: 16px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .table {
+    width: auto;
+    border-collapse: collapse;
+  }
+  
+  .label, .value {
+    padding: 8px 12px;
+    border: 1px solid #ccc; /* Границы между ячейками */
+  }
+  
+  .label {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .value {
+    text-align: right;
+  }
+  
+  /* Нечетные строки: белый фон */
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Четные строки: серый фон */
+  tr:nth-child(even) {
+    background-color: #E1E1E1;
+  }
+  

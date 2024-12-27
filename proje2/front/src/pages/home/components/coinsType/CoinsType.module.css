@@ -1,0 +1,29 @@
+
+.coinsType{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.coinsType_element{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.coinsType_element h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.coinsType_element span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    cursor: pointer;
+}
+.coinsType_element img{
+    width: 214px;
+    height: 214px;
+}

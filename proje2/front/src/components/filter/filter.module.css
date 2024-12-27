@@ -1,0 +1,28 @@
+.filter input{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #000000;
+    width: 374px;
+}   
+.filter button{
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 120px;
+    padding: 16px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background: #833AE0;
+}
+
+.filter p{
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+    width: max-content;
+}

@@ -1,0 +1,37 @@
+.advancedFilter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 25px;
+  }
+  
+  .filterGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  .filterGroup select{
+    padding: 16px;
+    width: 374px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #000000;
+  }
+  .filterGroup select option{
+    font-size: 14px;
+  }
+  .rangeInputs {
+    display: flex;
+    gap: 10px;
+  }
+  .rangeInputs label{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .rangeInputs input{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 300;  
+    border: 1px solid #000000;
+  }

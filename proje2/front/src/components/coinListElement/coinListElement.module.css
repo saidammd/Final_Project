@@ -1,0 +1,19 @@
+.coinListElement{
+    width: 47%;
+    margin-top: 25px;
+    text-decoration: none;
+}
+.coinListElement img{
+    width: 120px;
+    height: 120px;
+}
+.coinListElement h2{
+    color: #833AE0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.coinListElement p{
+    font-size: 12px;
+    font-weight: 400;
+}

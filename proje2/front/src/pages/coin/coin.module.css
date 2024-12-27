@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+    gap: 30px;
+}
+.content  img{
+    width: 300px;
+    height: 300px;
+    margin-top: 24px;
+}
+.right{
+    padding: 19px 43px;
+    background: #C4C4C480;
+    position: relative;
+}
+.right h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.right p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.right a{
+    position: absolute;
+    left: 43px;
+    bottom: 20px;
+    text-decoration: underline;
+    color: #000;
+    font-size: 10px;
+    font-weight: 400;
+}

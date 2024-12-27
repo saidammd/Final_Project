@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.homePage {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.logo {
+    font-family: "Shrikhand", cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.auth a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
+}
+
+.admin {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 109%;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        padding: 10px 15px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        text-align: center;
+
+        &:hover {
+            background-color: blueviolet;
+            color: white;
+            border: 1px solid white;
+        }
+    }
+
+    p {
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
